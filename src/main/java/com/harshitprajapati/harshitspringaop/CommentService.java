@@ -9,7 +9,7 @@ public class CommentService {
     private Logger logger = Logger.getLogger(CommentService.class.getName());
 
     @ToLog
-    public String publishCommment(Comment comment) {
+    public String publishComment(Comment comment) {
         logger.info("Publishing comment: " + comment.getText());
         return "SUCCESS";
     }
